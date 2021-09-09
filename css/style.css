@@ -1,0 +1,20 @@
+* { margin:0; padding:0; border:0; box-sizing:border-box; }
+.inspi img { vertical-align:top; }
+a { display:inline-block; vertical-align: top; text-decoration:none; }
+
+.inspi { width:100%; }
+.inspi:after { content:""; display:block; clear:both; }
+.inspi .port-link { width:50%; float:left; border:1px solid #000000; }
+
+.inspi .port-link .port-wrap { overflow:hidden; width:100%; padding-bottom:56.25%; height:0; }
+.inspi .port-link .port-wrap .port-img { width:100%; }
+
+@media screen and (max-width:768px){
+    .inspi .port-link { width:100%; float:none; }
+}
+
+@media screen and (min-width:769px){
+    .inspi .port-link .port-wrap  { transition:filter 2s ease; filter:grayscale(100%) ; -webkit-filter:grayscale(100%) ; -webkit-transition:filter 2s ease; -moz-transition:filter 2s ease; -ms-transition:filter 2s ease; -o-transition:filter 2s ease; }
+    .inspi .port-link .port-wrap:hover { filter:grayscale(0) ; -webkit-filter:grayscale(0) ; }
+}
+
