@@ -4,13 +4,14 @@
     src: url('../font/NHaasGroteskTXPro-55Rg.ttf');
 }
 * { margin:0; padding:0; border:0; box-sizing:border-box; font-family:'NHaasGro', 'sans-serif'; }
+html { cursor: url(https://static.cargo.site/images/up.png), auto !important; }
 body::-webkit-scrollbar { display:none; }
 .inspi img { vertical-align:top; }
 a { display:inline-block; vertical-align: top; text-decoration:none; }
 
 .inspi { width:100%; }
 .inspi:after { content:""; display:block; clear:both; }
-.inspi .port-link { width:50%; float:left; border:1px solid #000000; position:relative; overflow:hidden; }
+.inspi .port-link { cursor: url(https://static.cargo.site/images/up.png), auto !important; width:50%; float:left; border:1px solid #000000; position:relative; overflow:hidden; }
 
 .inspi .port-link .port-wrap { overflow:hidden; width:100%; padding-bottom:56.25%; height:0; }
 .inspi .port-link .port-wrap .port-img { width:100%; }
