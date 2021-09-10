@@ -4,6 +4,7 @@
     src: url('../font/NHaasGroteskTXPro-55Rg.ttf');
 }
 * { margin:0; padding:0; border:0; box-sizing:border-box; font-family:'NHaasGro', 'sans-serif'; }
+body::-webkit-scrollbar { display:none; width:0; }
 .inspi img { vertical-align:top; }
 a { display:inline-block; vertical-align: top; text-decoration:none; }
 
